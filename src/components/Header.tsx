@@ -7,12 +7,12 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const company = [
-  { name: '管理组', href: '/manage' },
-  { name: '联机组', href: '/online' },
-  { name: '翻译组', href: '/translate' },
-  { name: '美术组', href: '/art' },
-  { name: '地图组', href: '/map' },
-  { name: '红石技术组', href: '/tech' },
+  { name: '管理组', href: '/groups/manage' },
+  { name: '联机组', href: '/groups/online' },
+  { name: '翻译组', href: '/groups/translate' },
+  { name: '美术组', href: '/groups/art' },
+  { name: '地图组', href: '/groups/map' },
+  { name: '红石技术组', href: '/groups//tech' },
 ]
 
 function classNames(...classes: string[]) {

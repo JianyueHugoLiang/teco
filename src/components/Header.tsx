@@ -28,7 +28,7 @@ export function Header() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">TecoStudio</span>
-            <img className="h-8 w-auto" src="https://share.jianyuelab.cc/d/teco/logo/Title%E9%80%8F%E6%98%8E.png" alt="" />
+            <img className="h-8 w-auto" src="https://share.jianyuelab.cc/d/teco/logo/Title%E7%99%BD.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -96,7 +96,7 @@ export function Header() {
               <span className="sr-only">TecoStudio</span>
               <img
                 className="h-8 w-auto"
-                src="https://share.jianyuelab.cc/d/teco/logo/Title%E9%80%8F%E6%98%8E.png"
+                src="https://share.jianyuelab.cc/d/teco/logo/Title%E7%99%BD.png"
                 alt=""
               />
             </a>

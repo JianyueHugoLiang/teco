@@ -48,7 +48,7 @@ const navigation = [
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center text-xs leading-5 text-gray-500">
-              &copy; 2020 - {new Date().getFullYear()} TecoStudio. All rights reserved.
+              &copy; 2020 - {new Date().getFullYear()} TecoStudio. <a href="https://blog.jianyuelab.cc" className="italic">Made by JianyueLab</a>. All rights reserved.
             </p>
           </div>
         </div>

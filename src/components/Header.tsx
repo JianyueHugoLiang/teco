@@ -42,9 +42,6 @@ export function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/project" className="text-sm font-semibold leading-6 text-gray-900">
-            作品
-          </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             新闻
           </a>
@@ -112,13 +109,6 @@ export function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-
-                <a
-                  href="/project"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  作品
-                </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"

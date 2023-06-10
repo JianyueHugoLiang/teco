@@ -27,8 +27,8 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">TecoStudio</span>
-            <img className="" src="https://share.jianyuelab.cc/d/teco/logo/Title%E9%80%8F%E6%98%8E.ico" alt="" />
+            <span className="sr-only">Your Company</span>
+            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -96,7 +96,7 @@ export function Header() {
               <span className="sr-only">TecoStudio</span>
               <img
                 className="h-8 w-auto"
-                src="https://share.jianyuelab.cc/d/teco/logo/Title%E9%80%8F%E6%98%8E.ico?color=indigo&shade=600"
+                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
               />
             </a>
@@ -105,7 +105,7 @@ export function Header() {
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <span className="sr-only">Close menu</span>
+              <span className="sr-only">关闭菜单</span>
               <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>

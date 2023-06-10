@@ -11,16 +11,16 @@ const people = [
     // More people...
   ]
   
-  export default function manage() {
+  export default function tech() {
     return (
-      <>
+      <>  
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">管理组</h2>
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">红石技术组</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                TecoStudio 组织核心成员
+                描述
               </p>
             </div>
             <ul

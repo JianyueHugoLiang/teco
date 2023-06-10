@@ -7,11 +7,12 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const company = [
-  { name: 'About us', href: '#' },
-  { name: 'Careers', href: '#' },
-  { name: 'Support', href: '#' },
-  { name: 'Press', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: '管理组', href: '#' },
+  { name: '联机组', href: '#' },
+  { name: '翻译组', href: '#' },
+  { name: '美术组', href: '#' },
+  { name: '地图组', href: '#' },
+  { name: '红石技术组', href: '#' },
 ]
 
 function classNames(...classes: string[]) {
@@ -26,8 +27,8 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            <span className="sr-only">TecoStudio</span>
+            <img className="h-8 w-auto" src="./src/images/logo/title-nobg.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -36,21 +37,21 @@ export function Header() {
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">打开导航栏</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
+          <a href="/project" className="text-sm font-semibold leading-6 text-gray-900">
+            作品
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+            新闻
           </a>
 
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Company
+              小组·成员
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
@@ -76,6 +77,10 @@ export function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
+
+          <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+            关于我们
+          </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
@@ -88,7 +93,7 @@ export function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">TecoStudio</span>
               <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -109,23 +114,23 @@ export function Header() {
               <div className="space-y-2 py-6">
 
                 <a
-                  href="#"
+                  href="/project"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  作品
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  新闻
                 </a>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-gray-50">
-                        Company
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                        小组·成员
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
@@ -146,6 +151,10 @@ export function Header() {
                     </>
                   )}
                 </Disclosure>
+
+                <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+                  关于我们
+                </a>
               </div>
               <div className="py-6">
                 <a

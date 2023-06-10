@@ -115,6 +115,13 @@ export function Header() {
                 >
                   新闻
                 </a>
+                
+                <a
+                  href="#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  服务器
+                </a>
 
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
@@ -142,7 +149,10 @@ export function Header() {
                   )}
                 </Disclosure>
 
-                <a href="/about" className="text-sm font-semibold leading-6 text-gray-900">
+                <a
+                  href="/about"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
                   关于我们
                 </a>
               </div>

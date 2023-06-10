@@ -7,9 +7,9 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
 const company = [
-  { name: '管理组', href: '#' },
+  { name: '管理组', href: '/manage' },
   { name: '联机组', href: '#' },
-  { name: '翻译组', href: '#' },
+  { name: '翻译组', href: '/translate' },
   { name: '美术组', href: '#' },
   { name: '地图组', href: '#' },
   { name: '红石技术组', href: '#' },

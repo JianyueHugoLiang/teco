@@ -6,9 +6,14 @@ const posts = [
       description:
         'Essentials 中文汉化WIKI',
       imageUrl:
-        'https://attachment.mcbbs.net/data/myattachment/forum/202208/02/234418ann50tpqtbu0g733.png',
+        'https://share.jianyuelab.cc/d/teco/essential.png',
       date: 'July 28, 2022',
       datetime: '2022-07-28',
+      author: {
+        name: '翻译组',
+        imageUrl:
+          'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+      },
     },
     {
         id: 2,
@@ -20,21 +25,31 @@ const posts = [
           'https://cdn.staticaly.com/gh/LYOfficial/Redstone-Theory@main/Banner/625%C3%97238%E7%B4%A2.webp',
         date: 'June 25, 2022',
         datetime: '2022-06-25',
+        author: {
+            name: '红石技术组',
+            imageUrl:
+              'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+          },
     },
     {
         id: 3,
         title: 'FPP冻梨子材质包',
         href: 'https://www.mcbbs.net/thread-1361283-1-1.html',
         description:
-          '我的世界红石基础',
+          '我的世界材质包s',
         imageUrl:
-          'https://attachment.mcbbs.net/data/myattachment/group/cd/group_2194_banner.png?1667564028',
+          'https://share.jianyuelab.cc/d/teco/pack.png',
         date: 'July 11, 2022',
         datetime: '2022-07-11',
+        author: {
+            name: '什么什么组',
+            imageUrl:
+              'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+          },
       },
 ]
   
-  export default function Projects() {
+export default function Projects() {
     return (
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -59,6 +74,10 @@ const posts = [
                     <svg viewBox="0 0 2 2" className="-ml-0.5 h-0.5 w-0.5 flex-none fill-white/50">
                       <circle cx={1} cy={1} r={1} />
                     </svg>
+                    <div className="flex gap-x-2.5">
+                      <img src={post.author.imageUrl} alt="" className="h-6 w-6 flex-none rounded-full bg-white/10" />
+                      {post.author.name}
+                    </div>
                   </div>
                 </div>
                 <h3 className="mt-3 text-lg font-semibold leading-6 text-white">

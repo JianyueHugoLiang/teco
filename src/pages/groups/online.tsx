@@ -20,7 +20,10 @@ const people = [
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">联机组</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                描述
+                进行新版本 Minecraft 的探索，研究新的生电内容，编写联机相关教程、制作服务端插件。TecoCraft 内服、TecoEX 探索服 划分在该组下作为小组，由该组组长统一管理。
+              </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">
+                作为服务器的玩家参与服务器建设，探索新的世界！
               </p>
             </div>
             <ul

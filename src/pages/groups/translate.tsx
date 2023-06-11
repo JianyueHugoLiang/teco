@@ -20,7 +20,7 @@ const people = [
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">翻译组</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                TecoStudio 翻译组
+                独立于服务器的小组，有服内成员，也有服外成员。作为翻译人员，参与 TECO 团坑的翻译项目，如插件、Mod、Wiki等。
               </p>
             </div>
             <ul

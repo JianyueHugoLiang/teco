@@ -3,12 +3,12 @@ import { Header } from "@/components/Header"
 
 const people = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'MouFengcoo',
+      role: '美术组组长',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
     },
-    // More people...
+    
   ]
   
   export default function art() {
@@ -20,7 +20,7 @@ const people = [
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">美术组</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                描述
+                独立于服务器的小组，有服内成员，也有服外成员。参与团坑材质的制作设计等（如冻梨子材质）。
               </p>
             </div>
             <ul

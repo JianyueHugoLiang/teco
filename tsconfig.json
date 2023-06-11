@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/articles/articles.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/articles/articles.jsx", "src/pages/lib/formatDate.js", "src/pages/lib/generateRssFeed.js"],
   "exclude": ["node_modules"]
 }

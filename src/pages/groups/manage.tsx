@@ -3,12 +3,23 @@ import { Header } from "@/components/Header"
 
 const people = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'LYOfficial',
+      role: '总管',
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
     },
-    // More people...
+    {
+      name: 'LIPiston',
+      role: '副总管',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    },
+    {
+      name: 'Pairman',
+      role: '副总管',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+    },
   ]
   
   export default function manage() {
@@ -20,7 +31,7 @@ const people = [
             <div className="mx-auto max-w-2xl lg:mx-0">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">管理组</h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                TecoStudio 组织核心成员
+                TecoStudio 组织核心管理成员
               </p>
             </div>
             <ul

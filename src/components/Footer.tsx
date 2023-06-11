@@ -3,15 +3,10 @@ import {
     GitHubIcon,
     InstagramIcon,
     YouTubeIcon,
-    FacebookIcon,
+    DiscordIcon,
 } from "@/components/SocialIcons.jsx"
 
 const navigation = [
-    {
-      name: 'Facebook',
-      href: '#',
-      icon: FacebookIcon,
-    },
     {
       name: 'Instagram',
       href: '#',
@@ -24,7 +19,7 @@ const navigation = [
     },
     {
       name: 'GitHub',
-      href: '#',
+      href: 'https://github.com/TecoStudio',
       icon: GitHubIcon,
     },
     {
@@ -32,6 +27,11 @@ const navigation = [
       href: '#',
       icon: YouTubeIcon,
     },
+    {
+      name: 'Discord',
+      href: 'https://discord.gg/nGHvDz55bn',
+      icon: DiscordIcon,
+    }
   ]
   
   export function Footer() {

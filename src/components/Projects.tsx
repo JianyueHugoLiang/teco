@@ -6,13 +6,13 @@ const posts = [
       description:
         'Essentials 中文汉化WIKI',
       imageUrl:
-        'https://share.jianyuelab.cc/d/teco/essential.png',
+        'https://attachment.mcbbs.net/data/myattachment/forum/202208/02/234418ann50tpqtbu0g733.png',
       date: 'July 28, 2022',
       datetime: '2022-07-28',
       author: {
         name: '翻译组',
         imageUrl:
-          'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+          'https://sm.ms/image/RkBjGcKLQ7DnVMd',
       },
     },
     {
@@ -28,7 +28,7 @@ const posts = [
         author: {
             name: '红石技术组',
             imageUrl:
-              'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+              'https://sm.ms/image/RkBjGcKLQ7DnVMd',
           },
     },
     {
@@ -38,13 +38,13 @@ const posts = [
         description:
           '我的世界材质包s',
         imageUrl:
-          'https://share.jianyuelab.cc/d/teco/pack.png',
+          'http://space.coldregion.top/FPP/pack.png',
         date: 'July 11, 2022',
         datetime: '2022-07-11',
         author: {
             name: '什么什么组',
             imageUrl:
-              'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+              'https://sm.ms/image/RkBjGcKLQ7DnVMd',
           },
       },
 ]

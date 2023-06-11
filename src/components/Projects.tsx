@@ -11,8 +11,6 @@ const posts = [
       datetime: '2022-07-28',
       author: {
         name: '翻译组',
-        imageUrl:
-          'https://sm.ms/image/RkBjGcKLQ7DnVMd',
       },
     },
     {
@@ -27,8 +25,6 @@ const posts = [
         datetime: '2022-06-25',
         author: {
             name: '红石技术组',
-            imageUrl:
-              'https://sm.ms/image/RkBjGcKLQ7DnVMd',
           },
     },
     {
@@ -43,8 +39,6 @@ const posts = [
         datetime: '2022-07-11',
         author: {
             name: '什么什么组',
-            imageUrl:
-              'https://sm.ms/image/RkBjGcKLQ7DnVMd',
           },
       },
 ]
@@ -75,7 +69,6 @@ export default function Projects() {
                       <circle cx={1} cy={1} r={1} />
                     </svg>
                     <div className="flex gap-x-2.5">
-                      <img src={post.author.imageUrl} alt="" className="h-6 w-6 flex-none rounded-full bg-white/10" />
                       {post.author.name}
                     </div>
                   </div>

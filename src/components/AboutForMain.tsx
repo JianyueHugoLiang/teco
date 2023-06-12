@@ -1,6 +1,6 @@
 const links = [
     { name: '论坛', href: 'https://bbs.tecostudio.cn' },
-    { name: '服务器', href: '/server' },
+    { name: 'BILIBILI', href: 'https://space.bilibili.com/1387387251' },
     { name: '新闻', href: '/articles' },
     { name: 'MCBBS小组', href: 'https://www.mcbbs.net/group-2194-1.html'},
   ]

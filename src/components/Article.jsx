@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { formatDate } from "@/lib/date";
+import { formatDate } from "@/lib/formatDate";
 
 function Article({ article }) {
   return (

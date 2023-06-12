@@ -1,4 +1,4 @@
-import { getAllArticles } from "../lib/articles";
+import { getAllArticles } from "@/lib/getAllArticles";
 import Article from "@/components/Article";
 
 function ArticlesIndex({ articles }) {

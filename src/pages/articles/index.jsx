@@ -4,6 +4,8 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 function Article({ article }) {
   return (
@@ -40,6 +42,7 @@ export default function ArticlesIndex({ articles }) {
       <Head>
         <title>新闻 - TecoStudio</title>
       </Head>
+      <Header />
       <SimpleLayout
         title="新闻"
         intro=""
@@ -52,6 +55,7 @@ export default function ArticlesIndex({ articles }) {
           </div>
         </div>
       </SimpleLayout>
+      <Footer />
     </>
   )
 }

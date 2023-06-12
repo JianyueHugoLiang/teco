@@ -16,7 +16,7 @@ const links = [
         <img
           src="https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612192916-50ebcf4d-me.png"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-70"
+          className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center opacity-75"
         />
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"

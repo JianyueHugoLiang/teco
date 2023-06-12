@@ -89,7 +89,7 @@ const people = [
     {
       name: 'kirihara1012',
       role: '美术组副组长',
-      imnageUrl: 
+      imageUrl: 
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
     {

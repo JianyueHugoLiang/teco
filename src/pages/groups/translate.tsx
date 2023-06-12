@@ -24,7 +24,7 @@ const people = [
       name: 'Annijang',
       role: '正式成员',
       imageUrl:
-        'https://q.qlogo.cn/g?b=qq&nk=27761010872&s=100',
+        'https://q.qlogo.cn/g?b=qq&nk=2776101087&s=100',
     },
     {
       name: 'Valor',

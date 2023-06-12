@@ -6,7 +6,7 @@ const people = [
       name: 'MouFengcoo',
       role: '美术组组长',
       imageUrl:
-        'https://share.jianyuelab.cc/d/teco/logo/%E6%B7%B1%E8%89%B2.png',
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
     
   ]

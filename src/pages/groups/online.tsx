@@ -3,17 +3,121 @@ import { Header } from "@/components/Header"
 
 const people = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'Pairman',
+      role: '副总管/联机组组长',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
-    // More people...
+    {
+      name: 'LIPiston',
+      role: '副总管/联机组副组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'lin',
+      role: '联机组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'lsskyd',
+      role: '联机组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'airqt_',
+      role: '红石组副组长',
+      imageUrl: 
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'asd123461',
+      role: '正式组员',
+      imageUrl: 
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Bbbbbrock',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'BlueTape_awa',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'crazyboy0122',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Crying_star',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: '厨师沙律',
+      role: '正式成员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Daybreak',
+      role: '地图组副组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Dokin_Sama',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'FlyingDandeagle',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'kirihara1012',
+      role: '美术组副组长',
+      imnageUrl: 
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'MouFengcoo',
+      role: '美术组组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Orange_Wind',
+      role: '地图组组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'LYOfficial',
+      role: '总管/翻译组组长/红石组组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
   ]
   
   export default function online() {
     return (
       <>
+        <head>
+          <title>联机组成员 - TecoStudio</title>
+        </head>
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

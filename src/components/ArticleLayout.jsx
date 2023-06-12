@@ -36,7 +36,7 @@ export function ArticleLayout({
         <title>{`${meta.title} - TecoStudio`}</title>
         <meta name="description" content={meta.description} />
       </Head>
-      <Container className="bg-white mt-16 lg:mt-32">
+      <Container className="mt-16 lg:mt-32">
         <div className="xl:relative">
           <div className="mx-auto max-w-2xl">
             {previousPathname && (

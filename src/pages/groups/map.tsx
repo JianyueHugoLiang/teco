@@ -3,17 +3,59 @@ import { Footer } from "@/components/Footer"
 
 const people = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'Orange_Wind',
+      role: '地图组组长',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
-    // More people...
+    {
+      name: 'Daybreak',
+      role: '地图组副组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'nbsp_in_heaven',
+      role: '地图组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'wajz',
+      role: '地图组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Annijiang',
+      role: '正式成员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Devanaoi',
+      role: '正式成员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'LYOfficial',
+      role: '总管/翻译组组长/红石组组长',
+      imageUrl:
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
+    },
+    {
+      name: 'Yang',
+      role: '正式成员'
+    },
   ]
   
   export default function map() {
     return (
       <>  
+        <head>
+          <title>地图组 - TecoStudio</title>
+        </head>
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

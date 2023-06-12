@@ -3,12 +3,41 @@ import { Header } from "@/components/Header"
 
 const people = [
     {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'LYOfficial',
+      role: '总管/翻译组组长/红石组组长',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
+        '',
     },
-    // More people...
+    {
+      name: 'airqt_',
+      role: '红石组副组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'yjxiang',
+      role: '红石组小组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'Bbbbbrock',
+      role: '正式组员',
+      imageUrl: 
+        '',
+    },
+    {
+      name: '活塞脑壳',
+      role: '正式组员',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'Pairman',
+      role: '副总管/联机组副组长',
+      imageUrl:
+        '',
+    },
   ]
   
   export default function tech() {

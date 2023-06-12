@@ -8,7 +8,48 @@ const people = [
       imageUrl:
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
-    
+    {
+      name: 'Kihara1012',
+      role: '美术组副组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: '活塞脑壳',
+      role: '正式成员',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'LYOfficial',
+      role: '总管/翻译组组长/红石组组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'LIPiston',
+      role: '副总管/联机组副组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'Pairman',
+      role: '副总管/联机组组长',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'SmallCoral',
+      role: '正式组员',
+      imageUrl:
+        '',
+    },
+    {
+      name: 'zyl456',
+      role: '正式组员',
+      imageUrl:
+        '',
+    }
   ]
   
   export default function art() {

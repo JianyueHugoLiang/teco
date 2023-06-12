@@ -1,73 +1,91 @@
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
+import Link from "next/link";
+import clsx from "clsx";
 
-import { Card } from '@/components/Card'
-import { SimpleLayout } from '@/components/SimpleLayout'
-import { formatDate } from '@/lib/formatDate'
-import { getAllArticles } from '@/lib/getAllArticles'
-import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
+const globalStyles = `
+  body {
+    background-color: white;
+    color: black;
+  }
+`;
 
-function Article({ article }) {
+const articleStyles = {
+  title: {
+    fontSize: "2rem",
+    fontWeight: "bold",
+    marginBottom: "1rem",
+    textAlign: "center",
+  },
+  date: {
+    fontSize: "1rem",
+    marginBottom: "1rem",
+    textAlign: "center",
+  },
+};
+
+const backButtonStyles = {
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    marginTop: "2rem",
+  },
+  button: {
+    backgroundColor: "#4B5563",
+    color: "white",
+    padding: "0.5rem 1rem",
+    borderRadius: "0.25rem",
+    cursor: "pointer",
+    transition: "background-color 0.3s ease",
+    "&:hover": {
+      backgroundColor: "#1F2937",
+    },
+  },
+};
+
+const BackButton = ({ href, children, variant }) => {
+  const variantStyles = {
+    primary: {
+      backgroundColor: "#4B5563",
+      color: "white",
+    },
+    secondary: {
+      backgroundColor: "#F3F4F6",
+      color: "#4B5563",
+    },
+  };
+
+  const buttonStyles = clsx(
+    backButtonStyles.button,
+    variantStyles[variant]
+  );
+
   return (
-    <article className="md:grid md:grid-cols-4 md:items-baseline">
-      <Card className="md:col-span-3">
-        <Card.Title href={`/articles/${article.slug}`}>
-          {article.title}
-        </Card.Title>
-        <Card.Eyebrow
-          as="time"
-          dateTime={article.date}
-          className="md:hidden"
-          decorate
-        >
-          {formatDate(article.date)}
-        </Card.Eyebrow>
-        <Card.Description>{article.description}</Card.Description>
-        <Card.Cta>Read article</Card.Cta>
-      </Card>
-      <Card.Eyebrow
-        as="time"
-        dateTime={article.date}
-        className="mt-1 hidden md:block"
-      >
-        {formatDate(article.date)}
-      </Card.Eyebrow>
-    </article>
-  )
-}
+    <div style={backButtonStyles.container}>
+      <Link href={href}>
+        <a style={buttonStyles}>{children}</a>
+      </Link>
+    </div>
+  );
+};
 
-export default function ArticlesIndex({ articles }) {
+const ArticleLayout = ({ title, date, backButtonVariant, children }) => {
   return (
     <>
       <Head>
-        <title>新闻 - TecoStudio</title>
-        <meta
-          name="description"
-          content=""
-        />
+        <style>{globalStyles}</style>
+        <title>{title}</title>
       </Head>
-      <Header />
-      <SimpleLayout
-        title="新闻"
-        intro=""
-      >
-        <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
-          <div className="flex max-w-3xl flex-col space-y-16">
-            {articles.map((article) => (
-              <Article key={article.slug} article={article} />
-            ))}
-          </div>
-        </div>
-      </SimpleLayout>
-      <Footer />
+      <article>
+        <h1 style={articleStyles.title}>{title}</h1>
+        <p style={articleStyles.date}>{date}</p>
+        {children}
+      </article>
+      <BackButton href="/" variant={backButtonVariant}>
+        Back to Home
+      </BackButton>
     </>
-  )
-}
+  );
+};
 
-export async function getStaticProps() {
-  return {
-    props: {
-      articles: (await getAllArticles()).map(({ component, ...meta }) => meta),
-    },
-  }
-}
+export default ArticleLayout;

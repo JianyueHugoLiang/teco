@@ -38,15 +38,11 @@ export default function ArticlesIndex({ articles }) {
   return (
     <>
       <Head>
-        <title>Articles - JianyueHugo</title>
-        <meta
-          name="description"
-          content="All my thoughts and experience of programming, server development and translation"
-        />
+        <title>新闻 - TecoStudio</title>
       </Head>
       <SimpleLayout
-        title="Some Expression & Share"
-        intro="All my thoughts and experience of programming, server development and translation"
+        title="新闻"
+        intro=""
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">

@@ -36,13 +36,16 @@ const people = [
       name: 'Pairman',
       role: '副总管/联机组副组长',
       imageUrl:
-        'https://q.qlogo.cn/g?b=qq&nk=1425248077&s=100',
+        'https://q.qlogo.cn/g?b=qq&nk=3319907936&s=100',
     },
   ]
   
   export default function tech() {
     return (
-      <>  
+      <>
+        <head>
+          <title>红石技术组 - TecoStudio</title>
+        </head>
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

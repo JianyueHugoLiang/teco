@@ -42,19 +42,22 @@ const people = [
       name: 'SmallCoral',
       role: '正式组员',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2153958001&s=100',
     },
     {
       name: 'zyl456',
       role: '正式组员',
       imageUrl:
-        '',
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     }
   ]
   
   export default function art() {
     return (
       <>
+        <head>
+          <title>美术组 - TecoStudio</title>
+        </head>
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

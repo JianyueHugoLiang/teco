@@ -6,7 +6,7 @@ const people = [
       name: 'LYOfficial',
       role: '总管/翻译组组长/红石组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
     },
     {
       name: 'Pairman',
@@ -61,6 +61,9 @@ const people = [
   export default function manage() {
     return (
       <>
+        <head>
+          <title>管理组 - TecoStudio</title>
+        </head>
         <Header />
         <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">

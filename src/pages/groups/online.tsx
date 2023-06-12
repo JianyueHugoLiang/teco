@@ -87,14 +87,56 @@ const people = [
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
     {
+      name: 'ghastsdx',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'hxyzg',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'kokoa_kira',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
       name: 'kirihara1012',
       role: '美术组副组长',
       imageUrl: 
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
     {
+      name: 'LYOfficial',
+      role: '总管/翻译组组长/红石组组长',
+      imageUrl:
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
+    },
+    {
+      name: 'MilkCow2333',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Minecraft_yu_mi',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
       name: 'MouFengcoo',
       role: '美术组组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'nbsp_in_heaven',
+      role: '地图组小组长',
       imageUrl:
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
@@ -105,11 +147,71 @@ const people = [
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
     {
-      name: 'LYOfficial',
-      role: '总管/翻译组组长/红石组组长',
+      name: 'SadCarrotsPie',
+      role: '正式组员',
       imageUrl:
         'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
     },
+    {
+      name: 'SmallCoral',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'soda',
+      role: '翻译组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'TVTvirus',
+      role: '正式组员',
+      imageUrl: 
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'wajz',
+      role: '地图组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'xiaowenYOyo',
+      role: '正式组员',
+      imageUrl: 
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Yang',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'YiBoY_',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'yjxiang',
+      role: '红石组小组长',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'Yuukaze',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    },
+    {
+      name: 'zjxzhaoge',
+      role: '正式组员',
+      imageUrl:
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+    }
   ]
   
   export default function online() {

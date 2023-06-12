@@ -12,7 +12,7 @@ const links = [
   
   export default function About() {
     return (
-      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+      <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 opacity-50">
         <img
           src="https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612192916-50ebcf4d-me.png"
           alt=""

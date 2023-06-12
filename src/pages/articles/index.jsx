@@ -44,7 +44,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <Container className="mt-16 sm:mt-32">
       <Header />
-        <div className="bg-white md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40 mt-16 sm:mt-20">
+        <div className="bg-white md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40 mt-16">
             <div className="flex max-w-3xl flex-col space-y-16">
             {articles.map((article) => (
                 <Article key={article.slug} article={article} />

@@ -1,10 +1,11 @@
 import Head from 'next/head'
 
-import { Card } from '@/components/Card.jsx'
+import { Card } from '@/components/Card'
+import { SimpleLayout } from '@/components/SimpleLayout'
 import { formatDate } from '@/lib/formatDate'
 import { getAllArticles } from '@/lib/getAllArticles'
-import { Header } from '@/components/Header.tsx'
-import { Footer } from '@/components/Footer.tsx'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 function Article({ article }) {
   return (
@@ -40,15 +41,24 @@ export default function ArticlesIndex({ articles }) {
     <>
       <Head>
         <title>新闻 - TecoStudio</title>
+        <meta
+          name="description"
+          content=""
+        />
       </Head>
       <Header />
-      <div className="bg-white md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
-        <div className="flex max-w-3xl flex-col space-y-16">
-          {articles.map((article) => (
-            <Article key={article.slug} article={article} />
-          ))}
+      <SimpleLayout
+        title="新闻"
+        intro="n"
+      >
+        <div className="bg-white md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+          <div className="flex max-w-3xl flex-col space-y-16">
+            {articles.map((article) => (
+              <Article key={article.slug} article={article} />
+            ))}
+          </div>
         </div>
-      </div>
+      </SimpleLayout>
       <Footer />
     </>
   )

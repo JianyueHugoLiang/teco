@@ -6,7 +6,7 @@ const people = [
       name: 'Orange_Wind',
       role: '地图组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2423347596&s=100',
     },
     {
       name: 'Daybreak',
@@ -18,7 +18,7 @@ const people = [
       name: 'nbsp_in_heaven',
       role: '地图组小组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2478896527&s=100',
     },
     {
       name: 'wajz',
@@ -30,13 +30,13 @@ const people = [
       name: 'Annijiang',
       role: '正式成员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=27761010872&s=100',
     },
     {
       name: 'Devanaoi',
       role: '正式成员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2834841080&s=100',
     },
     {
       name: 'LYOfficial',
@@ -46,7 +46,9 @@ const people = [
     },
     {
       name: 'Yang',
-      role: '正式成员'
+      role: '正式成员',
+      imageUrl:
+        'https://q.qlogo.cn/g?b=qq&nk=2954205878&s=100',
     },
   ]
   

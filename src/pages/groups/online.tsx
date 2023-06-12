@@ -6,19 +6,19 @@ const people = [
       name: 'Pairman',
       role: '副总管/联机组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=3319907936&s=100',
     },
     {
       name: 'LIPiston',
       role: '副总管/联机组副组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1910093789&s=100',
     },
     {
       name: 'lin',
       role: '联机组小组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1533357687&s=100',
     },
     {
       name: 'lsskyd',
@@ -30,37 +30,37 @@ const people = [
       name: 'airqt_',
       role: '红石组副组长',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1425248077&s=100',
     },
     {
       name: 'asd123461',
       role: '正式组员',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2907619920&s=100',
     },
     {
       name: 'Bbbbbrock',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1194047946&s=100',
     },
     {
       name: 'BlueTape_awa',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2667155935&s=100',
     },
     {
       name: 'crazyboy0122',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1499093529&s=100',
     },
     {
       name: 'Crying_star',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2967433609&s=100',
     },
     {
       name: '厨师沙律',
@@ -78,7 +78,7 @@ const people = [
       name: 'Dokin_Sama',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=31160642&s=100',
     },
     {
       name: 'FlyingDandeagle',
@@ -90,13 +90,13 @@ const people = [
       name: 'ghastsdx',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=897973489&s=100',
     },
     {
       name: 'hxyzg',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2530939140&s=100',
     },
     {
       name: 'kokoa_kira',
@@ -108,7 +108,7 @@ const people = [
       name: 'kirihara1012',
       role: '美术组副组长',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2848912430&s=100',
     },
     {
       name: 'LYOfficial',
@@ -126,43 +126,43 @@ const people = [
       name: 'Minecraft_yu_mi',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1696456936&s=100',
     },
     {
       name: 'MouFengcoo',
       role: '美术组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=347296653&s=100',
     },
     {
       name: 'nbsp_in_heaven',
       role: '地图组小组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2478896527&s=100',
     },
     {
       name: 'Orange_Wind',
       role: '地图组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2423347596&s=100',
     },
     {
       name: 'SadCarrotsPie',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=21106701167&s=100',
     },
     {
       name: 'SmallCoral',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2153958001&s=100',
     },
     {
       name: 'soda',
       role: '翻译组小组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2968842562&s=100',
     },
     {
       name: 'TVTvirus',
@@ -180,13 +180,13 @@ const people = [
       name: 'xiaowenYOyo',
       role: '正式组员',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2876472199&s=100',
     },
     {
       name: 'Yang',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2954205878&s=100',
     },
     {
       name: 'YiBoY_',
@@ -198,7 +198,7 @@ const people = [
       name: 'yjxiang',
       role: '红石组小组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2936193171&s=100',
     },
     {
       name: 'Yuukaze',
@@ -210,7 +210,7 @@ const people = [
       name: 'zjxzhaoge',
       role: '正式组员',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1316838910&s=100',
     }
   ]
   

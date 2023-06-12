@@ -6,37 +6,37 @@ const people = [
       name: 'MouFengcoo',
       role: '美术组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=347296653&s=100',
     },
     {
       name: 'Kihara1012',
       role: '美术组副组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2848912430&s=100',
     },
     {
       name: '活塞脑壳',
       role: '正式成员',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=447554302&s=100',
     },
     {
       name: 'LYOfficial',
       role: '总管/翻译组组长/红石组组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
     },
     {
       name: 'LIPiston',
       role: '副总管/联机组副组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=1910093789&s=100',
     },
     {
       name: 'Pairman',
       role: '副总管/联机组组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=3319907936&s=100',
     },
     {
       name: 'SmallCoral',

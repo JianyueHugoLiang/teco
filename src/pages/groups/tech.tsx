@@ -6,37 +6,37 @@ const people = [
       name: 'LYOfficial',
       role: '总管/翻译组组长/红石组组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
     },
     {
       name: 'airqt_',
       role: '红石组副组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=1425248077&s=100',
     },
     {
       name: 'yjxiang',
       role: '红石组小组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2316193171&s=100',
     },
     {
       name: 'Bbbbbrock',
       role: '正式组员',
       imageUrl: 
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=1194047946&s=100',
     },
     {
       name: '活塞脑壳',
       role: '正式组员',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=447554302&s=100',
     },
     {
       name: 'Pairman',
       role: '副总管/联机组副组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=1425248077&s=100',
     },
   ]
   

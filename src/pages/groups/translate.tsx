@@ -6,31 +6,31 @@ const people = [
       name: 'LYOfficial',
       role: '总管/翻译组组长/红石组组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2523026981&s=100',
     },
     {
       name: 'sky_tianle',
       role: '翻译组副组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=1430413773&s=100',
     },
     {
       name: 'soda',
       role: '翻译组小组长',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=2968842562&s=100',
     },
     {
       name: 'Annijang',
       role: '正式成员',
       imageUrl:
-        '',
+        'https://q.qlogo.cn/g?b=qq&nk=27761010872&s=100',
     },
     {
-      name: 'Valorr',
+      name: 'Valor',
       role: '正式成员',
       imageUrl:
-        '',
+        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612093250-cfe96b66-th.png',
     },
   ]
   

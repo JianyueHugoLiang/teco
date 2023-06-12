@@ -12,31 +12,31 @@ const people = [
       name: 'Pairman',
       role: '副总管/联机组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=3319907936&s=100',
     },
     {
       name: 'LIPiston',
       role: '副总管/联机组副组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1910093789&s=100',
     },
     {
       name: 'MouFengcoo',
       role: '美术组组长',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=347296653&s=100',
     },
     {
       name: 'Orange_Wind',
       role: '地图组组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2423347596&s=100',
     },
     {
       name: 'airqt_',
       role: '红石组副组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1425248077&s=100',
     },
     {
       name: 'Daybreak',
@@ -48,13 +48,13 @@ const people = [
       name: 'Kirihara1012',
       role: '美术组副组长',
       imageUrl: 
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=2848912430&s=100',
     },
     {
       name: 'sky_tianle',
       role: '翻译组副组长',
       imageUrl:
-        'https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612091708-0b53856c-me.png',
+        'https://q.qlogo.cn/g?b=qq&nk=1430413773&s=100',
     }
   ]
   

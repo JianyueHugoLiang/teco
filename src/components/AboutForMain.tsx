@@ -1,52 +1,50 @@
-const links = [
-    { name: '论坛', href: 'https://bbs.tecostudio.cn' },
-    { name: 'BILIBILI', href: 'https://space.bilibili.com/1387387251' },
-    { name: '新闻', href: '/articles' },
-    { name: 'MCBBS小组', href: 'https://www.mcbbs.net/group-2194-1.html'},
-  ]
-  const stats = [
-    { name: '小组', value: '6' },
-    { name: '正式成员', value: '30+' },
-    { name: '实习组员', value: '100+' },
-  ]
-  
-  export default function About() {
-    return (
-      <div className="relative isolate overflow-hidden bg-white py-24 sm:py-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col items-center">
-          <div className="relative w-full h-full">
-            <img
-              src="https://photo.jianyuelab.cc/_data/i/upload/2023/06/12/20230612192916-50ebcf4d-me.png"
-              alt=""
-              className="absolute top-0 left-0 w-full h-full object-cover object-right md:object-center opacity-70"
-            />
-            <div className="absolute bottom-0 left-0 right-0 p-10 text-center text-white z-10">
-              <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">TecoStudio 帝咕团队</h2>
-              <p className="mt-5 text-lg leading-8 max-w-2xl mx-auto">
-              「TecoStudio」，简称「TECO」 成立于 2020.2.22 ，于 2022.7.22 在 MCBBS 上创立小组，是一个以红石技术、生电技巧为主的全方面 Minecraft 综合小组。
-                本小组开设有两个生电服务器，分别是 TecoCraft 内服 和 TecoEX 探索服 ，内服致力于探索 1.16.5 版本的红石技术，探索服致力于随版本更新并体验新特性。
-                除此之外，TECO 小组是一个以游戏技巧（红石方向）和地图制作为主，综合服务器插件、联机教程和材质包等多个领域的综合性小组。
-              </p>
+export default function About() {
+  return (
+    <div className="bg-gray-900">
+      <div className="relative isolate overflow-hidden pt-14">
+        <img
+          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
+          alt=""
+          className="absolute inset-0 -z-10 h-full w-full object-cover"
+        />
+        <div
+          className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          aria-hidden="true"
+        >
+          <div
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            style={{
+              clipPath:
+                'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+            }}
+          />
+        </div>
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 flex flex-col items-center justify-between h-full">
+          <div className="text-center mb-10">
+            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+              Data to enrich your online business
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+              fugiat veniam occaecat fugiat aliqua.
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+              >
+                Get started
+              </a>
+              <a href="#" className="text-sm font-semibold leading-6 text-white">
+                Learn more <span aria-hidden="true">→</span>
+              </a>
             </div>
           </div>
-          <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-gray-900 sm:grid-cols-2 md:flex lg:gap-x-10">
-              {links.map((link) => (
-                <a key={link.name} href={link.href}>
-                  {link.name} <span aria-hidden="true">&rarr;</span>
-                </a>
-              ))}
-            </div>
-            <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-              {stats.map((stat) => (
-                <div key={stat.name} className="flex flex-col-reverse">
-                  <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                  <dd className="text-2xl font-bold leading-9 tracking-tight text-gray-900">{stat.value}</dd>
-                </div>
-              ))}
-            </dl>
+          <div className="w-full h-16 bg-gray-800 flex items-center justify-center">
+            <p className="text-white font-semibold text-sm">© 2023 Example Inc. All rights reserved.</p>
           </div>
         </div>
       </div>
-    )
-  }
+    </div>
+  )
+}

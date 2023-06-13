@@ -3,51 +3,41 @@ import { Tab } from '@headlessui/react'
 
 const tabs = [
   {
-    name: 'Design',
+    name: '翻译组',
     features: [
       {
-        name: 'Adaptive and modular',
+        name: 'EssentialX 中文WIKI',
         description:
-          'The Organize base set allows you to configure and evolve your setup as your items and habits change. The included trays and optional add-ons are easily rearranged to achieve that perfect setup.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg',
-        imageAlt: 'Maple organizer base with slots, supporting white polycarbonate trays of various sizes.',
+          '描述',
+        imageSrc: 'https://attachment.mcbbs.net/data/myattachment/forum/202208/02/234418ann50tpqtbu0g733.png',
+        imageAlt: '',
+        link: 'https://www.mcbbs.net/thread-1367720-1-1.html',
       },
     ],
   },
   {
-    name: 'Material',
+    name: '美术组',
     features: [
       {
-        name: 'Natural wood options',
+        name: 'FPP冻梨子材质包',
         description:
-          'Organize has options for rich walnut and bright maple base materials. Accent your desk with a contrasting material, or match similar woods for a calm and cohesive look. Every base is hand sanded and finished.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-02.jpg',
-        imageAlt:
-          'Walnut organizer base with pen, sticky note, phone, and bin trays, next to modular drink coaster attachment.',
+          '描述',
+        imageSrc: 'http://space.coldregion.top/FPP/pack.png',
+        imageAlt: '',
+        link: 'https://www.mcbbs.net/thread-1361283-1-1.html',
       },
     ],
   },
   {
-    name: 'Considerations',
+    name: '红石技术组',
     features: [
       {
-        name: 'Helpful around the home',
+        name: '红石理论',
         description:
-          "Our customers use Organize throughout the house to bring efficiency to many daily routines. Enjoy Organize in your workspace, kitchen, living room, entry way, garage, and more. We can't wait to see how you'll use it!",
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-03.jpg',
-        imageAlt: 'Walnut organizer base with white polycarbonate trays in the kitchen with various kitchen utensils.',
-      },
-    ],
-  },
-  {
-    name: 'Included',
-    features: [
-      {
-        name: "Everything you'll need",
-        description:
-          'The Organize base set includes the pen, phone, small, and large trays to help you group all your essential items. Expand your set with the drink coaster and headphone stand add-ons.',
-        imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-04.jpg',
-        imageAlt: 'Walnut organizer system on black leather desk mat on top of white desk.',
+          "描述",
+        imageSrc: 'https://cdn.staticaly.com/gh/LYOfficial/Redstone-Theory@main/Banner/625%C3%97238%E7%B4%A2.webp',
+        imageAlt: '',
+        link: 'https://www.mcbbs.net/thread-1355338-1-1.html',
       },
     ],
   },
@@ -77,11 +67,10 @@ export default function Projects() {
         <div className="mx-auto max-w-2xl px-4 lg:max-w-none lg:px-0">
           <div className="max-w-3xl">
             <h2 id="features-heading" className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Technical Specifications
+              我们的作品
             </h2>
             <p className="mt-4 text-gray-500">
-              The Organize modular system offers endless options for arranging your favorite and most used items. Keep
-              everything at reach and in its place, while dressing up your workspace.
+              描述 
             </p>
           </div>
 
@@ -116,13 +105,14 @@ export default function Projects() {
                       <div className="mt-6 lg:col-span-5 lg:mt-0">
                         <h3 className="text-lg font-medium text-gray-900">{feature.name}</h3>
                         <p className="mt-2 text-sm text-gray-500">{feature.description}</p>
-                        <div
+                        <a
+                          href={feature.link}
                           aria-hidden="true"
                           className="relative z-10 mt-4 flex items-center text-sm font-medium text-teal-500"
                         >
                           详细
                           <ChevronRightIcon className="ml-1 h-4 w-4 stroke-current" />
-                        </div>
+                        </a>
                       </div>
                       <div className="lg:col-span-7">
                         <div className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5">

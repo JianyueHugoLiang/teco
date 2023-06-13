@@ -116,7 +116,7 @@ export default function Projects() {
                       </div>
                       <div className="lg:col-span-7">
                         <div className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5">
-                          <img src={feature.imageSrc} alt={feature.imageAlt} className="object-cover object-center" />
+                          <img src={feature.imageSrc} alt={feature.imageAlt} className="aspect-h-1 aspect-w-2 overflow-hidden rounded-lg bg-gray-100 sm:aspect-h-2 sm:aspect-w-5" />
                         </div>
                       </div>
                     </div>
